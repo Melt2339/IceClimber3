@@ -1,0 +1,40 @@
+﻿  Sprite.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  Sound.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  Over.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  mysql.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  Monster.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  Menu.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  MapManager.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  Map.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  Main.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  Logo.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  key.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  GameManager.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  Game.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  DeviceFont.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  DXUTsound.cpp
+  Data.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  CMng.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  Character.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  BlockManager.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  Block.cpp
+d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  코드를 생성하고 있습니다...

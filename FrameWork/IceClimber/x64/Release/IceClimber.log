@@ -1,0 +1,21 @@
+﻿  DeviceFont.cpp
+C:\Users\M\Downloads\최종버전\IceClimber\DeviceFont.cpp(69,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\M\Downloads\최종버전\IceClimber\DeviceFont.cpp(79,35): warning C4838: 'size_t'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\M\Downloads\최종버전\IceClimber\DeviceFont.cpp(79,35): warning C4267: '초기화 중': 'size_t'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\M\Downloads\최종버전\IceClimber\DeviceFont.cpp(83,40): warning C4267: '인수': 'size_t'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Game.cpp
+  GameManager.cpp
+C:\Users\M\Downloads\최종버전\IceClimber\GameManager.cpp(32,12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\M\Downloads\최종버전\IceClimber\GameManager.cpp(37,12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\M\Downloads\최종버전\IceClimber\GameManager.cpp(30,8): warning C4101: 'token' :참조되지 않은 지역 변수입니다.
+C:\Users\M\Downloads\최종버전\IceClimber\GameManager.cpp(66,12): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Logo.cpp
+C:\Users\M\Downloads\최종버전\IceClimber\Logo.cpp(71,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Main.cpp
+C:\Users\M\Downloads\최종버전\IceClimber\Main.cpp(112,11): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\M\Downloads\최종버전\IceClimber\Main.cpp(134,12): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\M\Downloads\최종버전\IceClimber\Main.cpp(147,11): warning C4244: '=': 'WPARAM'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\M\Downloads\최종버전\IceClimber\Main.cpp(148,3): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Map.cpp
+  Sprite.cpp
+C:\Users\M\Downloads\최종버전\IceClimber\Sprite.cpp(63,40): error C2102: '&'에 l-value가 있어야 합니다.

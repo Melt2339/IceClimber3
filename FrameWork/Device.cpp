@@ -1,0 +1,81 @@
+//#pragma once
+//#include "Include.h"
+//
+//Device DV;
+//
+//Device::Device(void)
+//{
+//}
+//
+//Device::~Device(void)
+//{
+//}
+//
+//bool Device::Create(IDirect3DDevice9* Device)
+//{
+//
+//	Device9 = Device;
+//
+//	D3DXCreateSprite( Device9 , &Sprite ) ;
+//
+//	ZeroMemory( &fdesc , sizeof(fdesc) ) ;
+//	fdesc.Height = 25 ;
+//	fdesc.Width = 12 ;
+//	fdesc.Weight = 500 ;
+//	fdesc.Italic = FALSE ;
+//	fdesc.CharSet = DEFAULT_CHARSET ;
+//	//fdesc.FaceName[LF_FACESIZE];
+//	_tcscpy_s( fdesc.FaceName,sizeof(fdesc.FaceName), _T("µ¸¿ò") ) ;
+//
+//	D3DXCreateFontIndirect( Device9 , &fdesc , &Fonts ) ;
+//
+//	return true;
+//
+//}
+//
+//bool Device::DrawString( const TCHAR* msg , int x , int y , D3DCOLOR color)
+//{
+//	RECT rect = { x , y , fdesc.Width*wcslen(msg) , fdesc.Height } ;
+//
+//	Sprite->Begin( D3DXSPRITE_ALPHABLEND ) ;
+//	//Fonts->DrawText( Sprite , msg , wcslen( msg ) , &rect , DT_NOCLIP , D3DCOLOR_XRGB(255,0,255) ) ;
+//	Fonts->DrawText(Sprite, msg, strlen(msg), &rect, DT_NOCLIP, color);
+//	Sprite->End() ;
+//	
+//	return true;
+//}
+
+#pragma once
+#include "Include.h"
+
+bool Device::Create(IDirect3DDevice9* Device)
+{
+    Device9 = Device;
+
+    D3DXCreateSprite(Device9, &Sprite);
+
+    ZeroMemory(&fdesc, sizeof(fdesc));
+    fdesc.Height = 25;
+    fdesc.Width = 12;
+    fdesc.Weight = 500;
+    fdesc.Italic = FALSE;
+    fdesc.CharSet = DEFAULT_CHARSET;
+
+    // ±Û²Ã ¼³Á¤ ("µ¸¿ò")
+    _tcscpy_s(fdesc.FaceName, _T("µ¸¿ò"));
+
+    D3DXCreateFontIndirect(Device9, &fdesc, &Fonts);
+
+    return true;
+}
+
+bool Device::DrawString(const TCHAR* msg, int x, int y, D3DCOLOR color)
+{
+    RECT rect = { x, y, x + (int)_tcslen(msg) * fdesc.Width, y + fdesc.Height };
+
+    Sprite->Begin(D3DXSPRITE_ALPHABLEND);
+    Fonts->DrawText(Sprite, msg, -1, &rect, DT_NOCLIP, color);
+    Sprite->End();
+
+    return true;
+}
