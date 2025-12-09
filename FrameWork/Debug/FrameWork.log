@@ -1,40 +1,83 @@
-﻿  Sprite.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  Sound.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  Over.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  mysql.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  Monster.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  Menu.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  MapManager.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  Map.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  Main.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  Logo.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  key.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  GameManager.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  Game.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  DeviceFont.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  DXUTsound.cpp
-  Data.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  CMng.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  Character.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
-  BlockManager.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(FrameWork.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
   Block.cpp
-d:\program\ice project\framework\framework\include.h(17): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Block.cpp'을(를) 컴파일하는 중)
+  
+  BlockManager.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'BlockManager.cpp'을(를) 컴파일하는 중)
+  
+  Character.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Character.cpp'을(를) 컴파일하는 중)
+  
+  CMng.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'CMng.cpp'을(를) 컴파일하는 중)
+  
+  Collider.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Collider.cpp'을(를) 컴파일하는 중)
+  
+  Data.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Data.cpp'을(를) 컴파일하는 중)
+  
+  Device.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Device.cpp'을(를) 컴파일하는 중)
+  
+  DXUTsound.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\DXUTsound.cpp(19,10): error C1083: 포함 파일을 열 수 없습니다. 'dxerr.h': No such file or directory
+  DeviceFont.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'DeviceFont.cpp'을(를) 컴파일하는 중)
+  
+  Game.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Game.cpp'을(를) 컴파일하는 중)
+  
+  GameManager.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'GameManager.cpp'을(를) 컴파일하는 중)
+  
+  Logo.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Logo.cpp'을(를) 컴파일하는 중)
+  
+  Main.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Main.cpp'을(를) 컴파일하는 중)
+  
+  Map.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Map.cpp'을(를) 컴파일하는 중)
+  
+  MapManager.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'MapManager.cpp'을(를) 컴파일하는 중)
+  
+  Menu.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Menu.cpp'을(를) 컴파일하는 중)
+  
+  Monster.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Monster.cpp'을(를) 컴파일하는 중)
+  
+  mysql.cpp
+  Over.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Over.cpp'을(를) 컴파일하는 중)
+  
+  Sound.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Sound.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Sprite.cpp
+C:\Users\M\Desktop\Project Game\Ice Climber project\IceClimber\FrameWork\Include.h(32,10): error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  (소스 파일 'Sprite.cpp'을(를) 컴파일하는 중)
+  
   코드를 생성하고 있습니다...
